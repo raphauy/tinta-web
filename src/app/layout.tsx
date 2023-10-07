@@ -14,8 +14,8 @@ import { fontSans } from '@/lib/fonts'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Nextjs Starter kit',
-  description: 'Nextjs Starter kit by RC',
+  title: 'Tina - Marketing del vino',
+  description: 'Sitio web de Tina, una agencia de marketing especializada en el sector del vino',
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
