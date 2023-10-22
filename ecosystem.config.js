@@ -2,7 +2,7 @@ module.exports = {
     apps: [
       {
         name: "tinta-web",
-        script: "pnpm",
+        script: "npm",
         args: "run start",
       },
     ],
