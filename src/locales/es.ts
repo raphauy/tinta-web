@@ -33,7 +33,7 @@ export default {
       }
     },
     academy: {
-      title: "Academia",
+      title: "Academy",
       description: "La educación es un elemento clave para el desarrollo personal y profesional, proporcionando herramientas y conocimientos necesarios para navegar y tener éxito en un mundo en constante cambio."
     }
   },
@@ -52,7 +52,7 @@ export default {
   menu: {
     about: "Nosotros",
     agency: "Agencia",
-    academy: "Academia",
+    academy: "Academy",
     manifest: "Manifiesto",
   },
 } as const
