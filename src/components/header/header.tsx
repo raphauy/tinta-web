@@ -9,7 +9,7 @@ interface Props {
 export default async function Header({ children }: Props) {
 
     return (
-        <div className="flex items-center gap-2 pb-1 border-b border-first-color/50">
+        <div className="fixed h-20 inset-0 z-50 flex items-center bg-background">
             <div>
                 <Logo />
             </div>

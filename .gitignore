@@ -1,4 +1,5 @@
 .env
+bun.lockb
 
 # dependencies
 /node_modules

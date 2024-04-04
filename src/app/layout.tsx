@@ -1,28 +1,20 @@
-import { Toaster } from '@/components/ui/toaster'
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import { ThemeProvider } from '@/components/shadcn/theme-provider'
 import SessionProvider from '@/components/SessionProvider'
 import Header from '@/components/header/header'
 import Menu from '@/components/header/menu'
 import { TailwindIndicator } from '@/components/shadcn/tailwind-indicator'
-import { cn } from '@/lib/utils'
+import { ThemeProvider } from '@/components/shadcn/theme-provider'
+import { Toaster } from '@/components/ui/toaster'
 import getSession from '@/lib/auth'
-import { fontSans } from '@/lib/fonts'
-
-const inter = Inter({ subsets: ['latin'] })
+import { GeistSans } from 'geist/font/sans'
+import { GeistMono } from 'geist/font/mono'
+import type { Metadata } from 'next'
+import './globals.css'
+import { cn } from '@/lib/utils'
+import Footer from './footer'
 
 export const metadata: Metadata = {
-  title: 'Tina - Marketing del vino',
+  title: 'Tinta - Educación y Marketing del vino',
   description: 'Sitio web de Tina, una agencia de marketing especializada en el sector del vino',
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
-  icons: {
-    icon: "favicon.ico",
-  },  
 }
 
 interface RootLayoutProps {  
@@ -35,23 +27,26 @@ export default async function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head />
-        <body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>
-            <SessionProvider session={session}>
-          
-
+        <body className={cn("min-h-screen bg-background text-muted-foreground font-sans antialiased", GeistSans.className)}>
+          <SessionProvider session={session}>
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-              <div className="container relative flex flex-col min-h-screen mt-1 text-muted-foreground">
+
+
+              <div className="relative flex flex-col min-h-screen pt-20 text-muted-foreground">
                 <Header><Menu /></Header> 
 
-                <div className="flex flex-col items-center flex-1">
+                <div className="flex flex-col items-center flex-grow">
                   {children}
                   <Toaster />
                 </div>
+
+                <Footer />
               </div>            
+
+
               <TailwindIndicator />
             </ThemeProvider>
-
-            </SessionProvider>
+          </SessionProvider>
         </body>
       </html>
     </>

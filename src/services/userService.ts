@@ -1,4 +1,4 @@
-import { UserFormValues } from "@/app/admin/users/(crud)/userForm";
+import { UserFormValues } from "@/app/[locale]/admin/users/(crud)/userForm";
 import { prisma } from "@/lib/db";
 
 export default async function getUsers() {

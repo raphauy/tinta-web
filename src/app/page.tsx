@@ -1,17 +1,12 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Link from 'next/link'
+import Hero from './[locale]/hero'
 
 export default function Home() {
   return (
-    <div className='flex flex-col items-center gap-10 mt-10'>
-      {/**
-       *  <h1 className='text-2xl font-bold'>Page</h1>
+    <div className=' flex-grow'>
 
-          <Link href="/login"><Button>Login</Button></Link>
-       */}
-
-       
       
     </div>
   )

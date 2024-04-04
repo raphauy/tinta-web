@@ -33,7 +33,7 @@ export default function MenuComponent({ menu }: Props) {
             <NavigationMenuList>
             {                
                 menu.map((item, index) => (
-                    !item.subMenu ? simpleItem(item) :
+                    !item.subMenu ? simpleItem(item, index) :
 
                     <NavigationMenuItem key={index}>
                         <NavigationMenuTrigger><Link href={item.href}>{item.key}</Link></NavigationMenuTrigger>
@@ -59,9 +59,9 @@ export default function MenuComponent({ menu }: Props) {
     );
 }
 
-function simpleItem(menu: MenuType) {    
+function simpleItem(menu: MenuType, index: number) {
     return (
-        <Link href={menu.href}><Button variant="ghost">{menu.key}</Button></Link>
+        <Link key={index} href={menu.href}><Button variant="ghost">{menu.key}</Button></Link>
     )
 }
 

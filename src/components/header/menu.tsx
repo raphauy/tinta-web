@@ -1,15 +1,16 @@
+"use client"
 
-import { getCurrentUser } from "@/lib/auth";
-import MenuAdmin from "./menu-admin";
-import MenuComponent from "./menu-item";
-import { publicMenu } from "./menu-data";
-import Link from "next/link";
-import { Sun } from "lucide-react";
 import { ThemeToggle } from "../shadcn/theme-toggle";
+import MenuAdmin from "./menu-admin";
+import PublicMenu from "./public-menu";
+import LanguageToggle from "./locale-toggle";
+import { useSession } from "next-auth/react";
+import { I18nProviderClient, useCurrentLocale } from "@/locales/client";
 
-export default async function Menu() {
+export default function Menu() {
     
-    const user= await getCurrentUser()
+    const user= useSession().data?.user
+    const locale= useCurrentLocale()
 
     return (
         <div className="flex justify-between items-center">
@@ -21,10 +22,13 @@ export default async function Menu() {
             </div>
             
             <div>
-                <MenuComponent menu={publicMenu} />
+                <I18nProviderClient locale={locale}>
+                    <PublicMenu />
+                </I18nProviderClient>
             </div>
 
-            <div>
+            <div className="flex items-center">
+                <LanguageToggle />
                 <ThemeToggle />
             </div>
         </div>
