@@ -1,5 +1,5 @@
 import { getCurrentUser } from "@/lib/auth";
-import NotAlowedPage from "../../(auth)/unauthorized/page";
+import NotAlowedPage from "@/app/(auth)/unauthorized/page";
 import SideBar from "./sideBar";
 import { redirect } from "next/navigation";
 
