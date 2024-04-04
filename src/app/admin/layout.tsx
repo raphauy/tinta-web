@@ -15,7 +15,7 @@ export default async function AdminLayout({ children }: Props) {
   }
 
   if (currentUser?.role !== "admin") {
-    return <NotAlowedPage message="Only admin role allowed." />
+    return <div>Only admin role allowed.</div>
   }
 
   return (
