@@ -14,7 +14,7 @@ import Footer from './footer'
 
 export const metadata: Metadata = {
   title: 'Tinta - Educación y Marketing del vino',
-  description: 'Sitio web de Tina, una agencia de marketing especializada en el sector del vino',
+  description: 'Sitio web de Tinta, una agencia de marketing especializada en el sector del vino',
 }
 
 interface RootLayoutProps {  
