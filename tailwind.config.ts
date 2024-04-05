@@ -22,6 +22,8 @@ module.exports = {
         "tinta-vino": "#DDBBC0",
         "tinta-amarillo": "#EAE559",
         "tinta-marron": "#AF8928",
+        "tinta-verde": "#143f3b",
+        "tinta-gris": "#ededed",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

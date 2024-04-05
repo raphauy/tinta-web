@@ -5,7 +5,9 @@ export default async function Services() {
   const t = await getScopedI18n("landing")
 
   return (
-    <section className="w-full py-6 md:py-12 text-gray-800 dark:text-white">
+    <section className="w-full py-6 md:py-12 text-gray-800 dark:text-white mt-10">
+      <h2 className="text-4xl font-semibold text-center text-tinta-verde mb-8">{t("queHacemosTitle")}</h2>
+      <p className="container text-center text-lg mb-8">{t("queHacemosDescription")}</p>
       <div className="container flex items-center justify-center px-8 text-center md:px-6">
         <div className="grid gap-6 lg:grid-cols-3 lg:gap-8">
           <div className="flex flex-col items-center space-y-6 border border-gray-300 rounded-xl p-4 md:p-6 shadow-sm dark:border-gray-800">

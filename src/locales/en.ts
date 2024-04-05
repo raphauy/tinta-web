@@ -1,5 +1,7 @@
 export default {
   landing: {
+    queHacemosTitle: "What we do",
+    queHacemosDescription: "We boost the success of your wine brand through digital marketing strategies and the creation of authentic and attractive content.",
     services: {
       strategy: {
         Title: "Social Media Strategy",
@@ -48,6 +50,26 @@ export default {
   },
   manifest: {
     title: "Manifest",
+    enfoqueTitle: "Focus on the essentials",
+    enfoqueDescription: "In a world saturated with information, we focus on what is truly important to achieve our goals. We apply the Pareto principle (80-20 rule) in everything we do, believing that 80% of results come from 20% of actions.",
+    prioridadTitle: "Priority to people",
+    prioridadDescription: "We put people at the heart of our actions. We are a service company, created by people and for people.",
+    solucionesTitle: "Effective solutions",
+    solucionesDescription: "We identify problems through active listening to our customers and propose efficient solutions. We know the world of wine, its challenges and opportunities, always keeping our feet on the ground.",
+    simplificacionTitle: "Simplification",
+    simplificacionDescription: "We turn the complex into simple and accessible.",
+    relacionesTitle: "Long-lasting relationships",
+    relacionesDescription: "We seek to grow together with our clients, thinking in the long term and not sacrificing the quality of professional, ethical and conscious work for immediate results.",
+    confianzaTitle: "Trust and responsibility",
+    confianzaDescription: "We value trust and responsibility, choosing carefully in whom to place our faith.",
+    potenciarTitle: "Empower talent",
+    potenciarDescription: "We believe in the potential of each person and seek to empower their talent, providing the necessary tools and support to achieve their goals.",
+    eficienciaTitle: "Efficiency and creativity",
+    eficienciaDescription: "We strive to do more with less, using creativity and innovation to design solutions with the available resources. We are passionate about technology applied to process optimization.",
+    agilidadTitle: "Agility and patience",
+    agilidadDescription: "We adapt to changes quickly and efficiently, maintaining a balance between agility and patience to achieve the best results.",
+    sostenibilidadTitle: "Sustainability",
+    sostenibilidadDescription: "We are committed to sustainable practices, thinking about the care of our planet and leaving it better than we found it."
   },
   menu: {
     about: "About",

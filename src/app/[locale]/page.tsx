@@ -4,6 +4,7 @@ import Services from "./services";
 import { getScopedI18n } from "@/locales/server";
 import SectionBox from "./section-box";
 import DevelopmentCards from "./development-cards";
+import DevelopmentBox from "./development-box";
 
 export default async function LanguagePage() {
 
@@ -17,11 +18,14 @@ export default async function LanguagePage() {
 
       <Services />
 
-      <SectionBox title={tAcademy("title")} description={tAcademy("description")} />
+      <SectionBox 
+        href="/academy"
+        title={tAcademy("title")} 
+        description={tAcademy("description")} 
+      />
 
-      <SectionBox title={tDev("title")} description={tDev("description")} />
+      <DevelopmentBox title={tDev("title")} description={tDev("description")} />
 
-      <DevelopmentCards />
       
     </div>
   )

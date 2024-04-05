@@ -1,5 +1,7 @@
 export default {
   landing: {
+    queHacemosTitle: "Qué hacemos",
+    queHacemosDescription: "Impulsamos el éxito de su marca de vinos a través de estrategias de marketing digital y creación de contenido auténtico y atractivo.",
     services: {
       strategy: {
         Title: "Estrategia para Redes Sociales",
@@ -47,7 +49,27 @@ export default {
     title: "Academy",
   },
   manifest: {
-    title: "Manifiesto",
+    title: "Manifiesto Tinta",
+    enfoqueTitle: "Enfoque en lo esencial",
+    enfoqueDescription: "En un mundo saturado de información, nos centramos en lo verdaderamente importante para alcanzar nuestros objetivos. Aplicamos el principio de Pareto (regla 80-20) en todo lo que hacemos, creyendo que el 80% de los resultados proviene del 20% de las acciones.",
+    prioridadTitle: "Prioridad a las personas",
+    prioridadDescription: "Colocamos a las personas en el corazón de nuestras acciones. Somos una empresa de servicios, creada por personas y para personas.",
+    solucionesTitle: "Soluciones efectivas",
+    solucionesDescription: "Identificamos problemas a través de la escucha activa de nuestros clientes y proponemos soluciones eficientes. Conocemos el mundo del vino, sus desafíos y oportunidades, manteniendo siempre los pies en la tierra.",
+    simplificacionTitle: "Simplificación",
+    simplificacionDescription: "Convertimos lo complejo en simple y accesible.",
+    relacionesTitle: "Relaciones duraderas",
+    relacionesDescription: "Buscamos crecer junto a nuestros clientes, pensando en el largo plazo y no sacrificando la calidad del trabajo profesional, ético y consciente por resultados inmediatos.",
+    confianzaTitle: "Confianza y responsabilidad",
+    confianzaDescription: "Valoramos la confianza y la responsabilidad, eligiendo cuidadosamente en quién depositar nuestra fe.",
+    potenciarTitle: "Potenciar el talento",
+    potenciarDescription: "Reconocemos y estimulamos los talentos individuales, permitiendo a cada persona maximizar su desempeño y encontrar motivación para desarrollarse profesionalmente.",
+    eficienciaTitle: "Eficiencia y creatividad",
+    eficienciaDescription: "Nos esforzamos por hacer más con menos, utilizando la creatividad y la innovación para diseñar soluciones con los recursos disponibles. Nos apasiona la tecnología aplicada a la optimización de procesos.",
+    agilidadTitle: "Agilidad y paciencia",
+    agilidadDescription: "Entendemos que la rapidez es crucial en los negocios. Somos proactivos y actuamos con determinación, pero también tenemos paciencia con los resultados, sabiendo que lo valioso requiere tiempo y dedicación.",
+    sostenibilidadTitle: "Sostenibilidad",
+    sostenibilidadDescription: "Nos comprometemos con prácticas sostenibles, pensando en el cuidado de nuestro planeta y en dejarlo mejor de lo que lo encontramos.",    
   },
   menu: {
     about: "Nosotros",
