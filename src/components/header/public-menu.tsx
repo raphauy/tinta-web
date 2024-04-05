@@ -40,7 +40,7 @@ export default function PublicMenu() {
                     return (
                         <li key={index} className={cn("border-b-primary", path === item.href && "border-b-2")}>
                             <Link href={item.href}>
-                                <Button variant="link" className="text-base">
+                                <Button variant="ghost" className="text-base">
                                     {item.text}
                                 </Button>
                             </Link>
