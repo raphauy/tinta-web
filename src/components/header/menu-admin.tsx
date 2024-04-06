@@ -13,7 +13,7 @@ export default function MenuAdmin() {
             <nav>
                 <ul className="flex items-center">
                     <li className={`flex items-center border-b-tinta-verde hover:border-b-tinta-verde hover:border-b-2 h-11 ${path.includes("admin") && "border-b-2"}`}>
-                        <Link href="/admin"><Button className="text-lg" variant="ghost">Admin</Button></Link>
+                        <Link href="/admin"><Button className="text-lg dark:text-white" variant="ghost">Admin</Button></Link>
                     </li>
                 </ul>
             </nav>

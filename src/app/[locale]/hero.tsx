@@ -6,7 +6,7 @@ export default async function Hero() {
     return (
       <section className="h-full text-gray-800 dark:text-white">
         <div className="flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 h-[calc(60vh-80px)]">
-          <h1 className="text-5xl text-center text-tinta-verde font-bold mb-4 ">{t("title")}</h1>
+          <h1 className="text-5xl text-center text-tinta-verde font-bold mb-4 dark:text-white">{t("title")}</h1>
           <p className="mt-4 text-xl text-center max-w-xl">
             {t("description")}
           </p>
