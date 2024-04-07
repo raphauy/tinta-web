@@ -13,7 +13,7 @@ export default function Menu() {
     const locale= useCurrentLocale()
 
     return (
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col sm:flex-row items-center sm:justify-between">
             <div className="">
                 {
                     user?.role === "admin" &&
