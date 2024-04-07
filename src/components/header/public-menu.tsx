@@ -16,19 +16,23 @@ export default function PublicMenu() {
     const data= [
         {
             href: "/about",
-            text: t('about')
+            text: t('about'),
+            disabled: true
         },
         {
             href: `/agency`,
-            text: t('agency')
+            text: t('agency'),
+            disabled: true
         },
         {
             href: `/academy`,
-            text: t('academy')
+            text: t('academy'),
+            disabled: true
         },
         {
             href: `/manifest`,
-            text: t('manifest')
+            text: t('manifest'),
+            disabled: false
         },
     ]
 
@@ -39,8 +43,8 @@ export default function PublicMenu() {
                 {data.map((item, index) => {
                     return (
                         <li key={index} className={cn("border-b-primary", path === item.href && "border-b-2")}>
-                            <Link href={item.href}>
-                                <Button variant="ghost" className="text-base dark:text-white">
+                            <Link href={item.disabled ? "#" : item.href}>
+                                <Button variant="ghost" className="text-base dark:text-white" disabled={item.disabled}>
                                     {item.text}
                                 </Button>
                             </Link>
