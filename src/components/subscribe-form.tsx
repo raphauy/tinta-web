@@ -49,7 +49,7 @@ export function SubscribeForm({ clientId }: Props) {
   }
 
   return (
-    <div className="mx-auto space-y-12 dark:bg-white dark:text-black bg-black text-white w-full border rounded-2xl max-w-3xl p-20 ">
+    <div className="mx-auto space-y-12 dark:bg-white dark:text-black bg-black text-white w-full border rounded-2xl max-w-3xl py-16 px-8 sm:p-20 ">
       <div className="space-y-2 text-center">
         <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-none">Suscríbete a nuestro Newsletter</h3>
       </div>

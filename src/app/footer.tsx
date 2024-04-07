@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <div className="mt-20 pb-1 flex flex-col items-center">
-      <div className='flex flex-col items-center p-10 w-full'>
+      <div className='flex flex-col items-center p-8 w-full'>
         {
           clientId ? <SubscribeForm clientId={clientId} /> : <p>clientId not found</p>
         }
