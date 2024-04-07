@@ -1,11 +1,21 @@
+import { SubscribeForm } from "@/components/subscribe-form";
 import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
+
+  const clientId= process.env.TINTA_CLIENT_ID
+
   return (
     <div className="mt-20 pb-1 flex flex-col items-center">
+      <div className='flex flex-col items-center p-10 w-full'>
+        {
+          clientId ? <SubscribeForm clientId={clientId} /> : <p>clientId not found</p>
+        }
+      </div>
+
       <div className="flex items-center justify-center h-4">
           <Link href="https://instagram.com/tinta.wine" target="_blank">
             <Button variant="ghost" className="px-1">
