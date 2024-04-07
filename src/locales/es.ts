@@ -18,7 +18,8 @@ export default {
     },
     hero: {
       title: "Educación & Marketing del Vino",
-      description: "Trabajamos para dar visibilidad a las historias de productores vitivinícolas y disminuir la brecha digital en el mundo del vino."
+      description: "Trabajamos para dar visibilidad a las historias de productores vitivinícolas y disminuir la brecha digital en el mundo del vino.",
+      charlemosButton: "Charlemos"
     },
     development: {
       title: "Desarrollo",

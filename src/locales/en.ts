@@ -18,7 +18,8 @@ export default {
     },
     hero: {
       title: "Education & Wine Marketing",
-      description: "We work to give visibility to the stories of wine producers and reduce the digital gap in the world of wine."
+      description: "We work to give visibility to the stories of wine producers and reduce the digital gap in the world of wine.",
+      charlemosButton: "Talk to us"
     },
     development: {
       title: "Development",
