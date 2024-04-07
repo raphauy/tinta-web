@@ -51,7 +51,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 
 
-              <div className="relative flex flex-col min-h-screen pt-20 text-muted-foreground">
+              <div className="relative flex flex-col min-h-screen pt-40 sm:pt-20 text-muted-foreground">
                 <Header><Menu /></Header> 
 
                 <div className="flex flex-col items-center flex-grow">
