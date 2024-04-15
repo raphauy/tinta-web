@@ -50,7 +50,7 @@ export default {
     title: "Academy",
   },
   manifest: {
-    title: "Tinta Manifest",
+    title: "Tinta Manifesto",
     enfoqueTitle: "Focus on the essentials",
     enfoqueDescription: "In a world saturated with information, we focus on what is truly important to achieve our goals. We apply the Pareto principle (80-20 rule) in everything we do, believing that 80% of results come from 20% of actions.",
     prioridadTitle: "Priority to people",
@@ -76,6 +76,6 @@ export default {
     about: "About",
     agency: "Agency",
     academy: "Academy",
-    manifest: "Manifest",
+    manifest: "Manifesto",
   },
 } as const
