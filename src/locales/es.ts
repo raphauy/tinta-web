@@ -15,6 +15,10 @@ export default {
         Title: "Publicidad en Redes Sociales",
         description: "Mejoramos la visibilidad de marcas de vinos con campañas publicitarias en redes sociales, ampliando el alcance del contenido y optimizando la conversión a ventas."
       },
+      customDesign: {
+        Title: "Diseño a Medida",
+        description: "Ofrecemos soluciones de diseño gráfico personalizadas y exclusivas para marcas de vinos, asegurando que cada elemento visual esté alineado con la identidad de tu marca. Desde fichas técnicas hasta presentaciones de marca, folletos y tarjetas personales, nos enfocamos en presentar tu marca de manera profesional y coherente, tanto en medios físicos como digitales."
+      },
     },
     hero: {
       title: "Educación & Marketing del Vino",

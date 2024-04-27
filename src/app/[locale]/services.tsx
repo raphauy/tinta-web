@@ -1,9 +1,9 @@
 import { getScopedI18n } from "@/locales/server"
-import { Clapperboard, LucideIcon, Megaphone, ThumbsUp } from "lucide-react"
+import { Clapperboard, LucideIcon, Megaphone, Pencil, ThumbsUp } from "lucide-react"
 
 type Service = {
-  title: "services.strategy.Title" | "services.content.Title" | "services.advertising.Title"
-  description: "services.strategy.description" | "services.content.description" | "services.advertising.description"
+  title: "services.strategy.Title" | "services.content.Title" | "services.advertising.Title" | "services.customDesign.Title"
+  description: "services.strategy.description" | "services.content.description" | "services.advertising.description" | "services.customDesign.description"
   icon: LucideIcon
 }
 const data: Service[] = [
@@ -21,6 +21,11 @@ const data: Service[] = [
     title: "services.advertising.Title",
     description: "services.advertising.description",
     icon: Megaphone
+  },
+  {
+    title: "services.customDesign.Title",
+    description: "services.customDesign.description",
+    icon: Pencil
   }
 ]
 export default async function Services() {
@@ -31,7 +36,7 @@ export default async function Services() {
       <h2 className="text-4xl font-semibold text-center text-tinta-verde mb-8 dark:text-white">{t("queHacemosTitle")}</h2>
       <p className="container text-center text-lg mb-8">{t("queHacemosDescription")}</p>
       <div className="container flex items-center justify-center px-8 text-center md:px-6">
-        <div className="grid gap-6 lg:grid-cols-3 lg:gap-8">
+        <div className="grid gap-6 lg:grid-cols-2 lg:gap-8">
           {
             data.map((item, index) => {
               const Icon = item.icon

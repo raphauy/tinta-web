@@ -15,6 +15,10 @@ export default {
         Title: "Social Media Advertising",
         description: "We improve the visibility of wine brands with advertising campaigns on social media, expanding the reach of content and optimizing conversion to sales."
       },
+      customDesign: {
+        Title: "Custom Design",
+        description: "We offer personalized and exclusive graphic design solutions for wine brands, ensuring that each visual element is aligned with your brand's identity. From technical data sheets to brand presentations, brochures, and business cards, we focus on presenting your brand in a professional and consistent manner, both in print and digital media."
+      },
     },
     hero: {
       title: "Education & Wine Marketing",
