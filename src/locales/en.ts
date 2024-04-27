@@ -17,7 +17,7 @@ export default {
       },
       customDesign: {
         Title: "Custom Design",
-        description: "We offer personalized and exclusive graphic design solutions for wine brands, ensuring that each visual element is aligned with your brand's identity. From technical data sheets to brand presentations, brochures, and business cards, we focus on presenting your brand in a professional and consistent manner, both in print and digital media."
+        description: "We offer personalized and exclusive graphic design solutions for wine brands, ensuring that each visual element is aligned with the brand's identity. From technical data sheets to brand presentations, brochures, and business cards, we focus on presenting your brand in a professional and consistent manner, both in print and digital media."
       },
     },
     hero: {

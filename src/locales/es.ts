@@ -17,7 +17,7 @@ export default {
       },
       customDesign: {
         Title: "Diseño a Medida",
-        description: "Ofrecemos soluciones de diseño gráfico personalizadas y exclusivas para marcas de vinos, asegurando que cada elemento visual esté alineado con la identidad de tu marca. Desde fichas técnicas hasta presentaciones de marca, folletos y tarjetas personales, nos enfocamos en presentar tu marca de manera profesional y coherente, tanto en medios físicos como digitales."
+        description: "Ofrecemos soluciones de diseño gráfico personalizadas y exclusivas para marcas de vinos, asegurando que cada elemento visual esté alineado con la identidad de la marca. Desde fichas técnicas hasta presentaciones de marca, folletos y tarjetas personales, nos enfocamos en presentar tu marca de manera profesional y coherente, tanto en medios físicos como digitales." 
       },
     },
     hero: {
