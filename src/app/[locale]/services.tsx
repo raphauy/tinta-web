@@ -1,5 +1,5 @@
 import { getScopedI18n } from "@/locales/server"
-import { Clapperboard, LucideIcon, Megaphone, Pencil, ThumbsUp } from "lucide-react"
+import { Clapperboard, LucideIcon, Megaphone, Palette, Pencil, ThumbsUp } from "lucide-react"
 
 type Service = {
   title: "services.strategy.Title" | "services.content.Title" | "services.advertising.Title" | "services.customDesign.Title"
@@ -25,7 +25,7 @@ const data: Service[] = [
   {
     title: "services.customDesign.Title",
     description: "services.customDesign.description",
-    icon: Pencil
+    icon: Palette
   }
 ]
 export default async function Services() {
