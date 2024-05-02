@@ -1,10 +1,8 @@
-import { Separator } from "@/components/ui/separator";
-import Hero from "./hero";
-import Services from "./services";
 import { getScopedI18n } from "@/locales/server";
-import SectionBox from "./section-box";
-import DevelopmentCards from "./development-cards";
 import DevelopmentBox from "./development-box";
+import Hero from "./hero";
+import SectionBox from "./section-box";
+import Services from "./services";
 
 export default async function LanguagePage() {
 
