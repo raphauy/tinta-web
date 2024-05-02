@@ -14,7 +14,7 @@ export default async function Hero() {
             {t("description")}
           </p>
           <Link href="https://wa.me/59892265737" prefetch={false} target="_blank">
-            <Button className="mt-8 gap-2"><MessageCircle /> {t("charlemosButton")}</Button>
+            <Button className="mt-8 gap-2 animate-buttonheartbeat"><MessageCircle /> {t("charlemosButton")}</Button>
           </Link>
         </div>
         <Image src="/uvas.jpg" alt="uvas" width={1920} height={1080} className="object-cover h-[calc(40vh)]"/>

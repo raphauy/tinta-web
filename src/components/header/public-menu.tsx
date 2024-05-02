@@ -30,7 +30,7 @@ export default function PublicMenu() {
             disabled: true
         },
         {
-            href: `/manifest`,
+            href: `/manifesto`,
             text: t('manifest'),
             disabled: false
         },
