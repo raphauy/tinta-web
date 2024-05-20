@@ -1,23 +1,21 @@
 export default {
   landing: {
-    queHacemosTitle: "What we do",
+    queHacemosTitle: "Our services",
     queHacemosDescription: "We boost the success of your wine brand through digital marketing strategies and the creation of authentic and attractive content.",
     services: {
-      strategy: {
-        Title: "Social Media Strategy",
-        description: "We manage and optimize the social media of wine brands, creating attractive and relevant content to connect with their audience, increase visibility and encourage interaction."
+      sectionTitle: "Services",
+      sectionDescription: "We offer a wide range of services to help you grow your wine brand.",
+      agency: {
+        Title: "Agency",
+        description: "We drive the success of wine brands through digital marketing strategies and the creation of authentic and attractive content."
       },
-      content: {
-        Title: "Content Creation for Social Media",
-        description: "We develop original and quality content for wine brands. Videos, photographs and texts that tell a story, in order to highlight their identity and values in the market and connect with their audience."
+      academy: {
+        Title: "Academy",
+        description: "We are the first and only WSET APP in Uruguay. WSET Level 1 and 2 wine courses, private and corporate events."
       },
-      advertising: {
-        Title: "Social Media Advertising",
-        description: "We improve the visibility of wine brands with advertising campaigns on social media, expanding the reach of content and optimizing conversion to sales."
-      },
-      customDesign: {
-        Title: "Custom Design",
-        description: "We offer personalized and exclusive graphic design solutions for wine brands, ensuring that each visual element is aligned with the brand's identity. From technical data sheets to brand presentations, brochures, and business cards, we focus on presenting your brand in a professional and consistent manner, both in print and digital media."
+      software: {
+        Title: "Software",
+        description: "We combine emerging technologies with creative strategies to offer unique solutions that respond to the challenges and opportunities of the wine industry."
       },
     },
     hero: {
@@ -42,6 +40,10 @@ export default {
     academy: {
       title: "Academy",
       description: "Education is a key element for personal and professional development, providing the tools and knowledge necessary to navigate and succeed in a constantly changing world."
+    },
+    lastSection: {
+      title: "Why are we different?",
+      description: "We are different because we have a deep passion and knowledge of the vitivinícola sector, which allows us to understand and connect with the specific needs of the world of wine with a holistic and strategic approach."
     }
   },
   about: {
@@ -49,6 +51,26 @@ export default {
   },
   agency: {
     title: "Agency",
+    services: {
+      sectionTitle: "Services",
+      sectionDescription: "We offer a wide range of services to help you grow your wine brand.",
+      strategy: {
+        Title: "Social Media Strategy",
+        description: "We manage and optimize the social media of wine brands, creating attractive and relevant content to connect with their audience, increase visibility and encourage interaction."
+      },
+      content: {
+        Title: "Content Creation for Social Media",
+        description: "We develop original and quality content for wine brands. Videos, photographs and texts that tell a story, in order to highlight their identity and values in the market and connect with their audience."
+      },
+      advertising: {
+        Title: "Social Media Advertising",
+        description: "We improve the visibility of wine brands with advertising campaigns on social media, expanding the reach of content and optimizing conversion to sales."
+      },
+      customDesign: {
+        Title: "Custom Design",
+        description: "We offer personalized and exclusive graphic design solutions for wine brands, ensuring that each visual element is aligned with the brand's identity. From technical data sheets to brand presentations, brochures, and business cards, we focus on presenting your brand in a professional and consistent manner, both in print and digital media."
+      },
+    },
   },
   academy: {
     title: "Academy",

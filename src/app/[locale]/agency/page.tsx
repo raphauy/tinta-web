@@ -1,10 +1,6 @@
-import { getScopedI18n } from "@/locales/server"
+import AgencyServices from "./agency-services"
 
 export default async function AgencyPage() {
 
-  const t = await getScopedI18n("agency")
-
-  return (
-    <div>{t("title")}</div>
-  )
+  return <AgencyServices />
 }

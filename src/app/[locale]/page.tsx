@@ -6,8 +6,7 @@ import Services from "./services";
 
 export default async function LanguagePage() {
 
-  const tDev = await getScopedI18n("landing.development")
-  const tAcademy = await getScopedI18n("landing.academy")
+  const tLastSection = await getScopedI18n("landing.lastSection")
 
   return (
     <div className="flex flex-col items-center">
@@ -16,15 +15,11 @@ export default async function LanguagePage() {
 
       <Services />
 
-      <SectionBox 
-        href="/academy"
-        title={tAcademy("title")} 
-        description={tAcademy("description")} 
-      />
+      <section className="w-full py-6 md:py-12 text-gray-800 dark:text-white mt-10">
+        <h2 className="text-4xl font-semibold text-center text-tinta-verde mb-8 dark:text-white">{tLastSection("title")}</h2>
+        <p className="container text-center text-lg mb-8">{tLastSection("description")}</p>
+      </section>
 
-      <DevelopmentBox title={tDev("title")} description={tDev("description")} />
-
-      
     </div>
   )
 }

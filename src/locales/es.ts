@@ -1,28 +1,26 @@
 export default {
   landing: {
-    queHacemosTitle: "Qué hacemos",
+    queHacemosTitle: "Nuestros servicios",
     queHacemosDescription: "Impulsamos el éxito de su marca de vinos a través de estrategias de marketing digital y creación de contenido auténtico y atractivo.",
     services: {
-      strategy: {
-        Title: "Estrategia para Redes Sociales",
-        description: "Gestionamos y optimizamos las redes sociales de marcas de vinos, creando contenido atractivo y relevante para conectar con su audiencia, aumentar la visibilidad y fomentar la interacción."  
+      sectionTitle: "Qué hacemos",
+      sectionDescription: "Impulsamos el éxito de su marca de vinos a través de estrategias de marketing digital y creación de contenido auténtico y atractivo.",
+      agency: {
+        Title: "Agencia",
+        description: "Impulsamos el éxito de marcas de vinos a través de estrategias de marketing digital y creación de contenido auténtico y atractivo."  
       },
-      content: {
-        Title: "Creación de Contenido para Redes Sociales",
-        description: "Desarrollamos contenido original y de calidad para marcas de vinos. Videos, fotografías y textos que cuentan una historia, con el fin de destacar su identidad y valores en el mercado y conectar con su audiencia."
+      academy: {
+        Title: "Academy",
+        description: "Somos la primera y única APP WSET en Uruguay. Cursos de vinos WSET Level 1 y 2, eventos privados y corporativos."
       },
-      advertising: {
-        Title: "Publicidad en Redes Sociales",
-        description: "Mejoramos la visibilidad de marcas de vinos con campañas publicitarias en redes sociales, ampliando el alcance del contenido y optimizando la conversión a ventas."
-      },
-      customDesign: {
-        Title: "Diseño a Medida",
-        description: "Ofrecemos soluciones de diseño gráfico personalizadas y exclusivas para marcas de vinos, asegurando que cada elemento visual esté alineado con la identidad de la marca. Desde fichas técnicas hasta presentaciones de marca, folletos y tarjetas personales, nos enfocamos en presentar tu marca de manera profesional y coherente, tanto en medios físicos como digitales." 
+      software: {
+        Title: "Software",
+        description: "Combinamos tecnologías emergentes con estrategias creativas para ofrecer soluciones únicas que respondan a los retos y oportunidades de la industria del vino."
       },
     },
     hero: {
-      title: "Educación & Marketing del Vino",
-      description: "Trabajamos para dar visibilidad a las historias de productores vitivinícolas y disminuir la brecha digital en el mundo del vino.",
+      title: "Somos Embajadores de la Cultura del Vino",
+      description: "Nuestros servicios están diseñados para dar visibilidad a las historias de los productores vitivinícolas, reducir la brecha digital y promover la formación profesional en el mundo del vino.",
       charlemosButton: "Charlemos"
     },
     development: {
@@ -42,6 +40,10 @@ export default {
     academy: {
       title: "Academy",
       description: "La educación es un elemento clave para el desarrollo personal y profesional, proporcionando herramientas y conocimientos necesarios para navegar y tener éxito en un mundo en constante cambio."
+    },
+    lastSection: {
+      title: "¿Por qué somos diferentes?",
+      description: "Nos diferenciamos por nuestra pasión y conocimiento profundo del sector vitivinícola, lo que nos permite comprender y conectar con las necesidades específicas del mundo del vino con una mirada integral y estratégica."
     }
   },
   about: {
@@ -49,6 +51,26 @@ export default {
   },
   agency: {
     title: "Agencia",
+    services: {
+      sectionTitle: "Qué hacemos",
+      sectionDescription: "Impulsamos el éxito de su marca de vinos a través de estrategias de marketing digital y creación de contenido auténtico y atractivo.",
+      strategy: {
+        Title: "Estrategia para Redes Sociales",
+        description: "Gestionamos y optimizamos las redes sociales de marcas de vinos, creando contenido atractivo y relevante para conectar con su audiencia, aumentar la visibilidad y fomentar la interacción."  
+      },
+      content: {
+        Title: "Creación de Contenido para Redes Sociales",
+        description: "Desarrollamos contenido original y de calidad para marcas de vinos. Videos, fotografías y textos que cuentan una historia, con el fin de destacar su identidad y valores en el mercado y conectar con su audiencia."
+      },
+      advertising: {
+        Title: "Publicidad en Redes Sociales",
+        description: "Mejoramos la visibilidad de marcas de vinos con campañas publicitarias en redes sociales, ampliando el alcance del contenido y optimizando la conversión a ventas."
+      },
+      customDesign: {
+        Title: "Diseño a Medida",
+        description: "Ofrecemos soluciones de diseño gráfico personalizadas y exclusivas para marcas de vinos, asegurando que cada elemento visual esté alineado con la identidad de la marca. Desde fichas técnicas hasta presentaciones de marca, folletos y tarjetas personales, nos enfocamos en presentar tu marca de manera profesional y coherente, tanto en medios físicos como digitales." 
+      },
+    },
   },
   academy: {
     title: "Academy",

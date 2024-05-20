@@ -1,46 +1,65 @@
-"use client"
-
-import { I18nProviderClient, useCurrentLocale, useScopedI18n } from "@/locales/client"
-import { motion } from 'framer-motion'
-import { Clapperboard, LucideIcon, Megaphone, Palette, ThumbsUp } from "lucide-react"
 import ServicesClient from "./services-client"
+import { getScopedI18n } from "@/locales/server"
 
-export type Service = {
-  title: "services.strategy.Title" | "services.content.Title" | "services.advertising.Title" | "services.customDesign.Title"
-  description: "services.strategy.description" | "services.content.description" | "services.advertising.description" | "services.customDesign.description"
-  icon: LucideIcon
+type LandingServiceText = {
+  title: "services.agency.Title" | "services.academy.Title" | "services.software.Title"
+  description: "services.agency.description" | "services.academy.description" | "services.software.description"
+  icon: string
+  link?: string
 }
-const data: Service[] = [
+
+export type SectionData = {
+  title: string
+  description: string
+  data: {
+    title: string
+    description: string
+    icon: string
+    link?: string
+  }[]
+}
+
+const data: LandingServiceText[] = [
   {
-    title: "services.strategy.Title",
-    description: "services.strategy.description",
-    icon: ThumbsUp
+    title: "services.agency.Title",
+    description: "services.agency.description",
+    icon: "ThumbsUp",
+    link: "/agency"
   },
   {
-    title: "services.content.Title",
-    description: "services.content.description",
-    icon: Clapperboard
+    title: "services.academy.Title",
+    description: "services.academy.description",
+    icon: "GraduationCap"
   },
   {
-    title: "services.advertising.Title",
-    description: "services.advertising.description",
-    icon: Megaphone
+    title: "services.software.Title",
+    description: "services.software.description",
+    icon: "Laptop"
   },
-  {
-    title: "services.customDesign.Title",
-    description: "services.customDesign.description",
-    icon: Palette
-  }
 ]
-export default function Services() {
-  const locale= useCurrentLocale()
+export default async function Services() {
+  const t = await getScopedI18n("landing")
+  const title= t("queHacemosTitle")
+  const description= t("queHacemosDescription")
+
+  const dataWithText= data.map((item) => {
+    return {
+      ...item,
+      title: t(item.title),
+      description: t(item.description)
+    }
+  })
+
+  const sectionData= {
+    title,
+    description,
+    data: dataWithText
+  }
+  console.log(sectionData)
+  
 
   return (
-    <I18nProviderClient locale={locale}>
-
-      <ServicesClient data={data} />
-
-    </I18nProviderClient>
+    <ServicesClient title={title} description={description} data={dataWithText} />
   )
 }
 

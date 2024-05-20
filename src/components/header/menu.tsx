@@ -2,7 +2,7 @@
 
 import { ThemeToggle } from "../shadcn/theme-toggle";
 import MenuAdmin from "./menu-admin";
-import PublicMenu from "./public-menu";
+import PublicMenu from "../../app/[locale]/public-menu";
 import LanguageToggle from "./locale-toggle";
 import { useSession } from "next-auth/react";
 import { I18nProviderClient, useCurrentLocale } from "@/locales/client";

@@ -22,7 +22,7 @@ export default function PublicMenu() {
         {
             href: `/agency`,
             text: t('agency'),
-            disabled: true
+            disabled: false
         },
         {
             href: `/academy`,
