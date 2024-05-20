@@ -27,7 +27,7 @@ export default function Menu() {
                 </I18nProviderClient>
             </div>
 
-            <div className="flex items-center">
+            <div className="items-center hidden sm:flex">
                 <LanguageToggle />
                 <ThemeToggle />
             </div>

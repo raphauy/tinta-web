@@ -11,6 +11,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { cn } from '@/lib/utils'
 import Footer from './footer'
+import LanguageToggle from '@/components/header/locale-toggle'
+import { ThemeToggle } from '@/components/shadcn/theme-toggle'
 
 export const metadata: Metadata = {
   title: 'Tinta - Educación y Marketing del vino',
@@ -60,6 +62,11 @@ export default async function RootLayout({ children }: RootLayoutProps) {
                 </div>
 
                 <Footer />
+
+                <div className="flex items-center sm:hidden mx-auto">
+                  <LanguageToggle />
+                  <ThemeToggle />
+                </div>
               </div>            
 
 
