@@ -10,8 +10,9 @@ export default function Logo() {
 
   return (
     <Link href="/">
-      <div className="flex flex-col items-center">
-        <Image src="/Tinta_Logotipo_Fondo-transparente.png" width={120} height={50} alt="Tinta logo" />        
+      <div className="flex flex-col items-center mt-3 sm:mt-0 sm:ml-3 mb-3">
+        <Image src="/Tinta_N.png" width={90} height={50} alt="Tinta logo" className="dark:hidden"/>        
+        <Image src="/Tinta_B.png" width={90} height={50} alt="Tinta logo" className="hidden dark:block"/>        
       </div>
     </Link>
   )
