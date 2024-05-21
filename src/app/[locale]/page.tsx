@@ -3,6 +3,7 @@ import DevelopmentBox from "./development-box";
 import Hero from "./hero";
 import SectionBox from "./section-box";
 import Services from "./services";
+import { Testimonials } from "./testimonials";
 
 export default async function LanguagePage() {
 
@@ -19,6 +20,8 @@ export default async function LanguagePage() {
         <h2 className="text-4xl font-semibold text-center text-tinta-verde mb-8 dark:text-white">{tLastSection("title")}</h2>
         <p className="container text-center text-lg mb-8">{tLastSection("description")}</p>
       </section>
+
+      {/* <Testimonials /> */}
 
     </div>
   )

@@ -75,3 +75,22 @@
     @apply bg-background text-foreground;
   }
 }
+
+.scroller {
+  --animation-duration: 40s;
+  --animation-direction: forwards;
+}
+
+.scroller .animate-scroll {
+  animation: scroll var(--animation-duration) linear infinite;
+}
+
+.scroller:hover .animate-scroll {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}

@@ -19,7 +19,7 @@ export default {
       },
     },
     hero: {
-      title: "Somos Embajadores de la Cultura del Vino",
+      title: "Embajadores de la Cultura del Vino",
       description: "Nuestros servicios están diseñados para dar visibilidad a las historias de los productores vitivinícolas, reducir la brecha digital y promover la formación profesional en el mundo del vino.",
       charlemosButton: "Charlemos"
     },
