@@ -17,7 +17,7 @@ export default async function Hero() {
             <Button className="mt-8 gap-2 animate-buttonheartbeat"><MessageCircle /> {t("charlemosButton")}</Button>
           </Link>
         </div>
-        <Image src="/uvas.jpg" alt="uvas" width={1920} height={1080} className="object-cover h-[calc(40vh)]"/>
+        <Image src="/Tinta_Hero.png" alt="uvas" width={1920} height={1080} className="object-cover h-[calc(40vh)]"/>
       </section>
     )
   }
