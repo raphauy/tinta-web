@@ -14,7 +14,7 @@ export default async function Hero() {
             {t("description")}
           </p>
           <Link href="https://wa.me/59892265737" prefetch={false} target="_blank">
-            <Button className="mt-8 gap-2 animate-buttonheartbeat"><MessageCircle /> {t("charlemosButton")}</Button>
+            <Button className="mt-8 mb-12 sm:mb-0 gap-2 animate-buttonheartbeat"><MessageCircle /> {t("charlemosButton")}</Button>
           </Link>
         </div>
         <Image src="/Tinta_Hero.png" alt="Hero image" width={1920} height={1080} className=""/>
