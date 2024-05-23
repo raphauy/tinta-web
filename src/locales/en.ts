@@ -20,7 +20,7 @@ export default {
     },
     hero: {
       title: "Wine Culture Ambassadors",
-      description: "Our services are designed to give visibility to the stories of wine producers and reduce the digital gap in the world of wine.",
+      description: "Our services are designed to give visibility to the stories of wine producers, reduce the digital gap, and promote professional education in the wine industry.",
       charlemosButton: "Talk to us"
     },
     development: {
