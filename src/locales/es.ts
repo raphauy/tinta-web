@@ -44,8 +44,14 @@ export default {
     lastSection: {
       title: "¿Por qué somos diferentes?",
       description: "Nos diferenciamos por nuestra pasión y conocimiento profundo del sector vitivinícola, lo que nos permite comprender y conectar con las necesidades específicas del mundo del vino con una mirada integral y estratégica."
+    },
+    clients: {
+      Title: "Nuestros clientes",
+    },
+    testimonials: {
+      Title: "Lo que dicen nuestros clientes",
     }
-  },
+},
   about: {
     title: "Nosotros",
   },

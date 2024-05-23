@@ -1,6 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
+import { useCurrentLocale, useScopedI18n } from "@/locales/client";
 import { useTheme } from "next-themes";
 import Image from "next/image"
 import { useEffect, useState } from "react";
@@ -55,6 +56,8 @@ export function Clients() {
   const [imageColor, setimageColor] = useState("N")
   const theme= useTheme()
 
+  const t= useScopedI18n("landing.clients")
+
   useEffect(() => {
     console.log("setting image color")
     
@@ -64,11 +67,10 @@ export function Clients() {
       setimageColor("N")
     }
   }, [theme])
-  
 
-  return (
+  return (    
     <div className="w-full flex flex-col items-center">
-      <h2 className="text-4xl font-semibold text-center text-tinta-verde mb-14 dark:text-white">Nuestros clientes</h2>
+      <h2 className="text-4xl font-semibold text-center text-tinta-verde mb-14 dark:text-white">{t("Title")}</h2>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-2">
       {
         clients.map((client) => (

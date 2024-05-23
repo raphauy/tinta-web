@@ -16,7 +16,7 @@ export default {
       software: {
         Title: "Software",
         description: "We combine emerging technologies with creative strategies to offer unique solutions that respond to the challenges and opportunities of the wine industry."
-      },
+      }
     },
     hero: {
       title: "Wine Culture Ambassadors",
@@ -44,6 +44,12 @@ export default {
     lastSection: {
       title: "Why are we different?",
       description: "We are different because we have a deep passion and knowledge of the vitivinícola sector, which allows us to understand and connect with the specific needs of the world of wine with a holistic and strategic approach."
+    },
+    clients: {
+      Title: "Our clients",
+    },
+    testimonials: {
+      Title: "What our clients say",
     }
   },
   about: {
