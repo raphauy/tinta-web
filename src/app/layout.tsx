@@ -1,18 +1,19 @@
 import SessionProvider from '@/components/SessionProvider'
 import Header from '@/components/header/header'
+import LanguageToggle from '@/components/header/locale-toggle'
 import Menu from '@/components/header/menu'
 import { TailwindIndicator } from '@/components/shadcn/tailwind-indicator'
 import { ThemeProvider } from '@/components/shadcn/theme-provider'
+import { ThemeToggle } from '@/components/shadcn/theme-toggle'
 import { Toaster } from '@/components/ui/toaster'
 import getSession from '@/lib/auth'
-import { GeistSans } from 'geist/font/sans'
-import { GeistMono } from 'geist/font/mono'
-import type { Metadata } from 'next'
-import './globals.css'
 import { cn } from '@/lib/utils'
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { GeistSans } from 'geist/font/sans'
+import type { Metadata } from 'next'
 import Footer from './footer'
-import LanguageToggle from '@/components/header/locale-toggle'
-import { ThemeToggle } from '@/components/shadcn/theme-toggle'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Tinta - Educación y Marketing del vino',
@@ -58,6 +59,8 @@ export default async function RootLayout({ children }: RootLayoutProps) {
 
                 <div className="flex flex-col items-center flex-grow">
                   {children}
+                  <Analytics />
+                  <SpeedInsights />
                   <Toaster />
                 </div>
 
