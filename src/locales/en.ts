@@ -60,8 +60,12 @@ export default {
     services: {
       sectionTitle: "Services",
       sectionDescription: "We offer a wide range of services to help you grow your wine brand.",
+      tintaStrategy: {
+        Title: "Tinta Strategy",
+        description: "A service aimed at wine brands seeking to improve their market presence, increase sales, and optimize their marketing and communication strategy. Our team will provide a personalized roadmap, tailored to the specific needs of each winery. The Tinta Strategy is our starting point; all our clients go through this stage, where we work on the foundations of their brand identity, product and service differentiation analysis, commercial objectives, and communication strategy."
+      },
       strategy: {
-        Title: "Social Media Strategy",
+        Title: "Social Media",
         description: "We manage and optimize the social media of wine brands, creating attractive and relevant content to connect with their audience, increase visibility and encourage interaction."
       },
       content: {

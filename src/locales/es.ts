@@ -60,8 +60,12 @@ export default {
     services: {
       sectionTitle: "Qué hacemos",
       sectionDescription: "Impulsamos el éxito de su marca de vinos a través de estrategias de marketing digital y creación de contenido auténtico y atractivo.",
+      tintaStrategy: {
+        Title: "Estrategia Tinta",
+        description: "Servicio destinado a marcas de vinos que buscan mejorar su presencia en el mercado, aumentar sus ventas y optimizar su estrategia de marketing y comunicación. Nuestro equipo proporcionará una hoja de ruta personalizada, adaptada a las necesidades específicas de cada bodega. La Estrategia Tinta es nuestro punto de partida de trabajo, todos nuestros clientes pasan por esta etapa, donde trabajamos las bases de su identidad de marca, análisis de diferenciación de productos y servicios, objetivos comerciales y estrategia de comunicación."
+      },
       strategy: {
-        Title: "Estrategia para Redes Sociales",
+        Title: "Redes Sociales",
         description: "Gestionamos y optimizamos las redes sociales de marcas de vinos, creando contenido atractivo y relevante para conectar con su audiencia, aumentar la visibilidad y fomentar la interacción."  
       },
       content: {

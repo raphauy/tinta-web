@@ -2,17 +2,22 @@ import { getScopedI18n } from "@/locales/server"
 import ServicesClient from "../services-client"
 
 type AgencyServiceText = {
-  title: "services.strategy.Title" | "services.content.Title" | "services.advertising.Title" | "services.customDesign.Title"
-  description: "services.strategy.description" | "services.content.description" | "services.advertising.description" | "services.customDesign.description"
+  title: "services.strategy.Title" | "services.content.Title" | "services.advertising.Title" | "services.customDesign.Title" | "services.tintaStrategy.Title"
+  description: "services.strategy.description" | "services.content.description" | "services.advertising.description" | "services.customDesign.description" | "services.tintaStrategy.description"
   icon: string
 }
 
 const data: AgencyServiceText[] = [
   {
+    title: "services.tintaStrategy.Title",
+    description: "services.tintaStrategy.description",
+    icon: "Target"
+  },  
+  {
     title: "services.strategy.Title",
     description: "services.strategy.description",
     icon: "ThumbsUp"
-  },
+  },  
   {
     title: "services.content.Title",
     description: "services.content.description",
