@@ -56,7 +56,7 @@ export default async function AgencyServices() {
   
 
   return (
-    <ServicesClient title={title} description={description} data={dataWithText} />
+    <ServicesClient title={title} description={description} data={dataWithText} spanFirst={true} />
   )
 }
 

@@ -16,8 +16,9 @@ type Props = {
     icon: string
     link?: string
   }[]
+  spanFirst?: boolean
 }
-export default function ServicesClient({ title, description, data }: Props) {
+export default function ServicesClient({ title, description, data, spanFirst }: Props) {
   const isMultipleOf3= data.length % 3 === 0
 
   return (
@@ -36,7 +37,7 @@ export default function ServicesClient({ title, description, data }: Props) {
                   whileHover={{y: -8,}}
                   transition={{type: 'spring',bounce: 0.7,}}
                   key={index} 
-                  className={cn("mt-5", index === 0 && "lg:col-span-2", index === 0 && isMultipleOf3 && "lg:col-span-3")}
+                  className={cn("mt-5", index === 0 && spanFirst && "lg:col-span-2", index === 0 && isMultipleOf3 && spanFirst && "lg:col-span-3")}
                 >
                   {
                     item.link ?
