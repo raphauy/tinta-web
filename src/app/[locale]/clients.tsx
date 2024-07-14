@@ -49,6 +49,9 @@ const clients = [
   {
     name: "WoU",
   },
+  {
+    name: "VinosdelMundo",
+  },
 ];
 
 export function Clients() {
@@ -71,7 +74,7 @@ export function Clients() {
   return (    
     <div className="w-full flex flex-col items-center">
       <h2 className="text-4xl font-semibold text-center text-tinta-verde mb-14 dark:text-white">{t("Title")}</h2>
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-2">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-2">
       {
         clients.map((client) => (
           <Card key={client.name} className="p-4 flex flex-col items-center justify-center w-32 h-32">
