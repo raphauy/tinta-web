@@ -16,6 +16,10 @@ export default {
       software: {
         Title: "Software",
         description: "We combine emerging technologies with creative strategies to offer unique solutions that respond to the challenges and opportunities of the wine industry."
+      },
+      editorial: {
+        Title: "Editorial",
+        description: "We publish and share specialized knowledge, translating experience and passion for wine into texts that educate, inspire, and enrich wine culture."
       }
     },
     hero: {

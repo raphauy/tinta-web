@@ -17,6 +17,10 @@ export default {
         Title: "Software",
         description: "Combinamos tecnologías emergentes con estrategias creativas para ofrecer soluciones únicas que respondan a los retos y oportunidades de la industria del vino."
       },
+      editorial: {
+        Title: "Editorial",
+        description: "Publicamos y compartimos conocimiento especializado, traduciendo la experiencia y pasión por el vino en textos que educan, inspiran y enriquecen la cultura vitivinícola."
+      }
     },
     hero: {
       title: "Embajadores de la Cultura del Vino",
