@@ -27,7 +27,7 @@ export default function PublicMenu() {
         {
             href: `/academy`,
             text: t('academy'),
-            disabled: true
+            disabled: false
         },
         {
             href: `/manifesto`,

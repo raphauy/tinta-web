@@ -1,11 +1,10 @@
 "use client"
 
-import { motion } from 'framer-motion'
-import { SectionData } from "./services"
-import * as LucideIcons from "lucide-react"
-import React from "react"
 import { cn } from '@/lib/utils'
+import { motion } from 'framer-motion'
+import * as LucideIcons from "lucide-react"
 import Link from 'next/link'
+import React from "react"
 
 type Props = {
   title: string
@@ -24,7 +23,7 @@ export default function ServicesClient({ title, description, data, spanFirst }: 
   return (
 
     <section className="w-full py-6 md:py-12 text-gray-800 dark:text-white mt-10">
-      <h2 className="text-4xl font-semibold text-center text-tinta-verde mb-8 dark:text-white">{title}</h2>
+      <h1 className="text-4xl font-semibold text-center text-tinta-verde mb-8 dark:text-white">{title}</h1>
       <p className="container text-center text-lg mb-8">{description}</p>
       <div className="container flex items-center justify-center px-8 text-center md:px-6">
         <div className={cn("grid gap-6 lg:gap-8", isMultipleOf3 ? "lg:grid-cols-3" : "lg:grid-cols-2")}>
@@ -47,7 +46,7 @@ export default function ServicesClient({ title, description, data, spanFirst }: 
                         {React.createElement(icon, { className: "w-16 h-16"})}
                         </div>
                         <div className="space-y-6">
-                          <h3 className="text-3xl font-semibold">{item.title}</h3>
+                          <h2 className="text-3xl font-semibold">{item.title}</h2>
                           <p className=" text-gray-500 md:text-base dark:text-gray-400">
                             {item.description}
                           </p>
@@ -60,7 +59,7 @@ export default function ServicesClient({ title, description, data, spanFirst }: 
                       {React.createElement(icon, { className: "w-16 h-16"})}
                       </div>
                       <div className="space-y-6">
-                        <h3 className="text-3xl font-semibold">{item.title}</h3>
+                        <h2 className="text-3xl font-semibold">{item.title}</h2>
                         <p className=" text-gray-500 md:text-base dark:text-gray-400">
                           {item.description}
                         </p>
@@ -78,18 +77,3 @@ export default function ServicesClient({ title, description, data, spanFirst }: 
   )
 }
 
-function getBox(item: SectionData, icon: any) {
-  return (
-    <div className="flex flex-col items-center space-y-6 border border-gray-300 rounded-xl p-4 md:p-6 shadow-sm dark:border-gray-800 h-full">
-      <div className="flex items-center justify-center w-24 h-24 rounded-full border border-gray-400 p-3 dark:border-gray-800">
-      {React.createElement(icon, { className: "w-16 h-16"})}
-      </div>
-      <div className="space-y-6">
-        <h3 className="text-3xl font-semibold">{item.title}</h3>
-        <p className=" text-gray-500 md:text-base dark:text-gray-400">
-          {item.description}
-        </p>
-      </div>
-    </div>
-  )
-}

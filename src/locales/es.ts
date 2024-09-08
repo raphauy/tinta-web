@@ -6,7 +6,7 @@ export default {
       sectionTitle: "Qué hacemos",
       sectionDescription: "Impulsamos el éxito de su marca de vinos a través de estrategias de marketing digital y creación de contenido auténtico y atractivo.",
       agency: {
-        Title: "Agencia",
+        Title: "Agency",
         description: "Impulsamos el éxito de marcas de vinos a través de estrategias de marketing digital y creación de contenido auténtico y atractivo."  
       },
       academy: {
@@ -41,10 +41,6 @@ export default {
         }
       }
     },
-    academy: {
-      title: "Academy",
-      description: "La educación es un elemento clave para el desarrollo personal y profesional, proporcionando herramientas y conocimientos necesarios para navegar y tener éxito en un mundo en constante cambio."
-    },
     lastSection: {
       title: "¿Por qué somos diferentes?",
       description: "Nos diferenciamos por nuestra pasión y conocimiento profundo del sector vitivinícola, lo que nos permite comprender y conectar con las necesidades específicas del mundo del vino con una mirada integral y estratégica."
@@ -55,12 +51,12 @@ export default {
     testimonials: {
       Title: "Lo que dicen nuestros clientes",
     }
-},
+  },
   about: {
     title: "Nosotros",
   },
   agency: {
-    title: "Agencia",
+    title: "Agency",
     services: {
       sectionTitle: "Qué hacemos",
       sectionDescription: "Impulsamos el éxito de su marca de vinos a través de estrategias de marketing digital y creación de contenido auténtico y atractivo.",
@@ -87,7 +83,11 @@ export default {
     },
   },
   academy: {
-    title: "Academy",
+    title: "Tu Pasaporte a la Cultura del Vino",
+    paragraph1: "Tinta Academy es un centro de formación especializado en la educación sobre vinos donde vas a descubrir, enriquecer y elevar tu conocimiento sobre la cultura del vino con una perspectiva global.",
+    paragraph2: "Creemos en el poder transformador del conocimiento y ofrecemos una educación de excelencia que combina teoría, práctica y experiencia, permitiéndote vivir y apreciar la cultura del vino de una manera única.",
+    logoText: "Tinta Primera y única Approved Programme Provider WSET en Uruguay",
+    launchText: "Lanzamiento: septiembre 2024",
   },
   manifest: {
     title: "Manifiesto Tinta",
@@ -114,7 +114,7 @@ export default {
   },
   menu: {
     about: "Nosotros",
-    agency: "Agencia",
+    agency: "Agency",
     academy: "Academy",
     manifest: "Manifiesto",
   },

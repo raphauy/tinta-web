@@ -41,10 +41,6 @@ export default {
         }
       }
     },
-    academy: {
-      title: "Academy",
-      description: "Education is a key element for personal and professional development, providing the tools and knowledge necessary to navigate and succeed in a constantly changing world."
-    },
     lastSection: {
       title: "Why are we different?",
       description: "We are different because we have a deep passion and knowledge of the vitivinícola sector, which allows us to understand and connect with the specific needs of the world of wine with a holistic and strategic approach."
@@ -87,7 +83,11 @@ export default {
     },
   },
   academy: {
-    title: "Academy",
+    title: "Your Passport to Wine Culture",
+    paragraph1: "Tinta Academy is a specialized training center focused on wine education, where you will discover, enrich, and elevate your knowledge of wine culture from a global perspective.",
+    paragraph2: "We believe in the transformative power of knowledge and offer top-quality education that combines theory, practice, and experience, allowing you to experience and appreciate wine culture in a truly unique way.",
+    logoText: "The first and only Approved Programme Provider of WSET in Uruguay",
+    launchText: "Launch: September 2024",
   },
   manifest: {
     title: "Tinta Manifesto",
