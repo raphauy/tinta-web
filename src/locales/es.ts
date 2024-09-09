@@ -86,7 +86,7 @@ export default {
     title: "Tu Pasaporte a la Cultura del Vino",
     paragraph1: "Tinta Academy es un centro de formación especializado en la educación sobre vinos donde vas a descubrir, enriquecer y elevar tu conocimiento sobre la cultura del vino con una perspectiva global.",
     paragraph2: "Creemos en el poder transformador del conocimiento y ofrecemos una educación de excelencia que combina teoría, práctica y experiencia, permitiéndote vivir y apreciar la cultura del vino de una manera única.",
-    logoText: "Tinta Primera y única Approved Programme Provider WSET en Uruguay",
+    logoText: "Primera y única Approved Programme Provider WSET en Uruguay",
     launchText: "Lanzamiento: septiembre 2024",
   },
   manifest: {
