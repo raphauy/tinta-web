@@ -37,7 +37,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-
 }
 
 interface RootLayoutProps {  
@@ -53,8 +52,6 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         <body className={cn("min-h-screen bg-background text-muted-foreground font-sans antialiased", GeistSans.className)}>
           <SessionProvider session={session}>
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-
-
               <div className="relative flex flex-col min-h-screen pt-32 sm:pt-20 text-muted-foreground">
                 <Header><Menu /></Header> 
 
@@ -72,8 +69,10 @@ export default async function RootLayout({ children }: RootLayoutProps) {
                   <ThemeToggle />
                 </div>
               </div>            
+              
               <Script id="chatwoot" strategy="afterInteractive">
                 {`
+                  window.chatwootSettings = {"position":"right","type":"standard","launcherTitle":"Chatea con nosotros"};
                   (function(d,t) {
                     var BASE_URL="https://chatwoot.raphauy.dev";
                     var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -90,7 +89,6 @@ export default async function RootLayout({ children }: RootLayoutProps) {
                   })(document,"script");
                 `}
               </Script>
-
 
               <TailwindIndicator />
             </ThemeProvider>
