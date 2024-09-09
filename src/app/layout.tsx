@@ -12,6 +12,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { GeistSans } from 'geist/font/sans'
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import Footer from './footer'
 import './globals.css'
 
@@ -71,6 +72,24 @@ export default async function RootLayout({ children }: RootLayoutProps) {
                   <ThemeToggle />
                 </div>
               </div>            
+              <Script id="chatwoot" strategy="afterInteractive">
+                {`
+                  (function(d,t) {
+                    var BASE_URL="https://chatwoot.raphauy.dev";
+                    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                    g.src=BASE_URL+"/packs/js/sdk.js";
+                    g.defer = true;
+                    g.async = true;
+                    s.parentNode.insertBefore(g,s);
+                    g.onload=function(){
+                      window.chatwootSDK.run({
+                        websiteToken: 'Vim1b8paMCtBYkaDtbEXQUjD',
+                        baseUrl: BASE_URL
+                      })
+                    }
+                  })(document,"script");
+                `}
+              </Script>
 
 
               <TailwindIndicator />
