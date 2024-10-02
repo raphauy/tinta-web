@@ -87,7 +87,7 @@ export default {
     paragraph1: "Tinta Academy is a specialized training center focused on wine education, where you will discover, enrich, and elevate your knowledge of wine culture from a global perspective.",
     paragraph2: "We believe in the transformative power of knowledge and offer top-quality education that combines theory, practice, and experience, allowing you to experience and appreciate wine culture in a truly unique way.",
     logoText: "The first and only Approved Programme Provider of WSET in Uruguay",
-    launchText: "Launch: September 2024",
+    buttonText: "Inscriptions in academy.tinta.wine"
   },
   manifest: {
     title: "Tinta Manifesto",

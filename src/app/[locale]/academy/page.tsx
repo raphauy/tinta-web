@@ -1,5 +1,7 @@
+import { Button } from "@/components/ui/button"
 import { getScopedI18n } from "@/locales/server"
 import Image from "next/image"
+import Link from "next/link"
 
 export default async function AcademyPage() {
     const t = await getScopedI18n("academy")
@@ -18,7 +20,9 @@ export default async function AcademyPage() {
           <p className="text-lg">{t("logoText")}</p>
         </div>
 
-        <p className="text-center text-lg mt-20">{t("launchText")}</p>
+        <Link href="https://academy.tinta.wine/cursos" target="_blank">
+          <Button className="mt-10 w-full">{"👉🏼 " + t("buttonText") + " 👈🏼"}</Button>
+        </Link>
 
       </div>
     )

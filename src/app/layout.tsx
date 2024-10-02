@@ -1,3 +1,4 @@
+import React from 'react'
 import SessionProvider from '@/components/SessionProvider'
 import Header from '@/components/header/header'
 import LanguageToggle from '@/components/header/locale-toggle'
