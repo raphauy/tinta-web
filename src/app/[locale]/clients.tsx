@@ -63,6 +63,12 @@ const chileanClients = [
   },
 ]
 
+const mexicanClients = [
+  {
+    name: "La_Ceto",
+  },
+]
+
 export function Clients() {
 
   const [imageColor, setimageColor] = useState("N")
@@ -97,6 +103,16 @@ export function Clients() {
       <div className="grid grid-cols-2 gap-2">
       {
         chileanClients.map((client) => (
+          <Card key={client.name} className="p-4 flex flex-col items-center justify-center w-32 h-32">
+            <Image src={`/clients/${client.name}_${imageColor}.png`} alt={client.name} width={200} height={200} />
+          </Card>
+        ))
+      }
+      </div>
+      <h3 className="text-2xl font-semibold text-center text-tinta-verde mt-14 mb-8 dark:text-white">México</h3>
+      <div className="grid grid-cols-1 gap-2">
+      {
+        mexicanClients.map((client) => (
           <Card key={client.name} className="p-4 flex flex-col items-center justify-center w-32 h-32">
             <Image src={`/clients/${client.name}_${imageColor}.png`} alt={client.name} width={200} height={200} />
           </Card>
