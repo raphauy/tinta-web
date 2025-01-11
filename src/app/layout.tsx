@@ -91,6 +91,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
                   })(document,"script");
                 `}
               </Script>
+              
 
               <Script id="facebook-pixel" strategy="afterInteractive">
                 {`
